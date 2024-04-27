@@ -1,0 +1,104 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: coral;
+    color: #fff;
+    text-align: center;
+}
+
+#nav-bar{
+    background-color: #333;
+    color: #fff;
+    text-align: end;
+}
+
+#nav-bar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#nav-bar li{
+    display: inline;
+}
+
+#nav-bar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase{
+    background-image: url(../css/showcase.jpeg);
+    background-position: center right;
+    height: 550px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding: 30px; 
+
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    background: #555;
+    color: #fff;
+}
+
+#main-footer{
+    text-align: center;
+}
+
+@media screen and (max-width: 80rem) {
+    #showcase h1{
+        font-size: medium;
+
+        }
+    #showcase{
+        text-wrap: inherit;
+        }
+    #showcase{
+        height: 250px;
+    }
+    #main {
+      flex-wrap: inherit;
+      height: 400px;
+    }
+    #sidebar {
+        flex-wrap: inherit;
+         height: 400px;
+    }
+
+    
+  }
+
+  
